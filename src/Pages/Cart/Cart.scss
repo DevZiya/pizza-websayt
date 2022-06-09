@@ -1,0 +1,197 @@
+.cartContainer{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    gap: 40px;
+
+    .total{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        button{
+            cursor: pointer;
+            border: none;
+            background-color: white;
+            color: #150f0f;
+            padding: 10px 20px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            transition: 0.5s ease-in-out all;
+            -webkit-transition: 0.5s ease-in-out all;
+            -moz-transition: 0.5s ease-in-out all;
+            -ms-transition: 0.5s ease-in-out all;
+            -o-transition: 0.5s ease-in-out all;
+    
+    
+            &:hover{
+                background-color: green;
+            }
+        }
+
+        span{
+            font-size: 25px;
+            color: lime;
+        }
+    }
+    .cartBox{
+        display: flex;
+        gap: 40px;
+
+        .image{
+            display: flex;
+            justify-content: space-between;
+            height: 30vw;
+            width: 30vw;
+
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+            }
+        }
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+
+            h3{
+                font-size: 35px;
+                color: orange;
+            }
+
+            span{
+                font-size: 20px;
+            }
+
+            .btn{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                p{
+                    font-size: 25px;
+                    color: orangered;
+                }
+
+                .button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px 0;
+                    width: 200px;
+                    border: 1px solid orange;
+                    gap: 20px;
+
+                    .icon{
+                        cursor: pointer;
+                        color: orangered !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 640px) and (max-width:940px){
+    .cartContainer .cartBox .text h3 {
+        font-size: 25px;
+    }
+
+    .cartContainer .cartBox .text span {
+        font-size: 15px;
+    }
+
+    .cartContainer .cartBox .text .btn p {
+        font-size: 20px;
+    }
+
+    .cartContainer .cartBox .text .btn button{
+        padding: 10px 0;
+        width: 200px;
+    }
+  }
+
+
+  @media screen and (min-width: 340px) and (max-width:640px){
+
+    .cartContainer .cartBox{
+        gap:10px;
+    }
+
+    .cartContainer .cartBox .image {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .cartContainer .cartBox .text{
+        gap: 10px;
+    }
+
+    .cartContainer .cartBox .text h3 {
+        font-size: 20px;
+    }
+
+    .cartContainer .cartBox .text span {
+        font-size: 14px;
+    }
+
+    .cartContainer .cartBox .text .btn p {
+        font-size: 18px;
+    }
+
+    .cartContainer .cartBox .text .btn button{
+        padding: 10px 0;
+        width: 150px;
+    }
+  }
+
+  @media screen and (min-width: 220px) and (max-width:340px){
+
+    .cartContainer .cartBox .image {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .cartContainer .cartBox .text{
+        gap: 2px;
+    }
+
+    .cartContainer .cartBox {
+        gap:10px;
+    }
+
+    .cartContainer .cartBox .text h3 {
+        font-size: 14px;
+    }
+
+    .cartContainer .cartBox .text span {
+        font-size: 10px;
+    }
+
+    .cartContainer .cartBox .text .btn p {
+        font-size: 12px;
+    }
+
+    .cartContainer .cartBox .text .btn .button{
+        width: 130px;        
+    }
+
+    .cartContainer .total button{
+        padding: 5px 10px;
+    }
+    .cartContainer .total span{
+        font-size:18px;
+    }
+  }

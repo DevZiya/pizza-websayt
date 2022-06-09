@@ -1,0 +1,49 @@
+.nav{
+    background: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+
+    .navLink{
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: #fff;
+
+    }
+
+    .navIcon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        color: #fff;
+
+            p {
+            transform: translate(-175%, 100%);
+            font-weight: bold;
+            }
+
+            i{
+                font-size: 2rem;
+                transform: translate(-50%, -15%);
+            }
+        }
+}
+
+
+
+
+
+
+/* Responsive  */
+    @media screen and (max-width: 400px) {
+        .nav .navLink{
+            position: absolute;
+            top: 10px;
+            left: 25px
+        }
+      }

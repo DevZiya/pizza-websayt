@@ -1,0 +1,252 @@
+.fullContainer {
+  display: flex;
+  flex-direction: column;
+  background: #150f0f; }
+  .fullContainer .sweet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px; }
+    .fullContainer .sweet .icons {
+      display: flex;
+      width: 100%;
+      justify-content: space-between; }
+      .fullContainer .sweet .icons button {
+        background-color: white;
+        color: #150f0f;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: 0.5s ease-in-out all;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        -webkit-transition: 0.5s ease-in-out all;
+        -moz-transition: 0.5s ease-in-out all;
+        -ms-transition: 0.5s ease-in-out all;
+        -o-transition: 0.5s ease-in-out all; }
+        .fullContainer .sweet .icons button:hover {
+          background-color: green; }
+      .fullContainer .sweet .icons .icon {
+        font-size: 35px;
+        cursor: pointer; }
+    .fullContainer .sweet .cartBox {
+      display: flex;
+      gap: 40px; }
+      .fullContainer .sweet .cartBox .image {
+        height: 30vw;
+        width: 30vw; }
+        .fullContainer .sweet .cartBox .image img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px; }
+      .fullContainer .sweet .cartBox .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px; }
+        .fullContainer .sweet .cartBox .text h3 {
+          font-size: 35px;
+          color: orange; }
+        .fullContainer .sweet .cartBox .text span {
+          font-size: 20px; }
+        .fullContainer .sweet .cartBox .text .btn {
+          display: flex;
+          flex-direction: column;
+          gap: 15px; }
+          .fullContainer .sweet .cartBox .text .btn p {
+            font-size: 25px;
+            color: orangered; }
+          .fullContainer .sweet .cartBox .text .btn button {
+            cursor: pointer;
+            border: none;
+            width: 300px;
+            background-color: white;
+            color: #150f0f;
+            padding: 15px 0;
+            transition: 0.5s ease-in-out all;
+            -webkit-transition: 0.5s ease-in-out all;
+            -moz-transition: 0.5s ease-in-out all;
+            -ms-transition: 0.5s ease-in-out all;
+            -o-transition: 0.5s ease-in-out all; }
+            .fullContainer .sweet .cartBox .text .btn button:hover {
+              background-color: green; }
+  .fullContainer .pizza {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px; }
+    .fullContainer .pizza .cartBox {
+      display: flex;
+      gap: 40px; }
+      .fullContainer .pizza .cartBox .image {
+        height: 30vw;
+        width: 30vw; }
+        .fullContainer .pizza .cartBox .image img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px; }
+      .fullContainer .pizza .cartBox .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px; }
+        .fullContainer .pizza .cartBox .text h3 {
+          font-size: 35px;
+          color: orange; }
+        .fullContainer .pizza .cartBox .text span {
+          font-size: 20px; }
+        .fullContainer .pizza .cartBox .text .btn {
+          display: flex;
+          flex-direction: column;
+          gap: 15px; }
+          .fullContainer .pizza .cartBox .text .btn p {
+            font-size: 25px;
+            color: orangered; }
+          .fullContainer .pizza .cartBox .text .btn button {
+            cursor: pointer;
+            border: none;
+            width: 50%;
+            background-color: white;
+            color: #150f0f;
+            padding: 15px 0;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            transition: 0.5s ease-in-out all;
+            -webkit-transition: 0.5s ease-in-out all;
+            -moz-transition: 0.5s ease-in-out all;
+            -ms-transition: 0.5s ease-in-out all;
+            -o-transition: 0.5s ease-in-out all; }
+            .fullContainer .pizza .cartBox .text .btn button:hover {
+              background-color: green; }
+
+@media screen and (min-width: 640px) and (max-width: 940px) {
+  .fullContainer .sweet .cartBox .text h3 {
+    font-size: 25px; }
+
+  .fullContainer .sweet .cartBox .text span {
+    font-size: 15px; }
+
+  .fullContainer .sweet .cartBox .text .btn p {
+    font-size: 20px; }
+
+  .fullContainer .sweet .cartBox .text .btn button {
+    padding: 10px 0;
+    width: 200px; }
+
+  .fullContainer .pizza .cartBox .text h3 {
+    font-size: 25px; }
+
+  .fullContainer .pizza .cartBox .text span {
+    font-size: 15px; }
+
+  .fullContainer .pizza .cartBox .text .btn p {
+    font-size: 20px; }
+
+  .fullContainer .pizza .cartBox .text .btn button {
+    padding: 10px 0;
+    width: 200px; } }
+@media screen and (min-width: 340px) and (max-width: 640px) {
+  .fullContainer .sweet .cartBox .text {
+    gap: 10px; }
+
+  .fullContainer .sweet .cartBox .text h3 {
+    font-size: 20px; }
+
+  .fullContainer .sweet .cartBox .text span {
+    font-size: 14px; }
+
+  .fullContainer .sweet .cartBox .text .btn p {
+    font-size: 18px; }
+
+  .fullContainer .sweet .cartBox .text .btn button {
+    padding: 10px 0;
+    width: 150px; }
+
+  .fullContainer .sweet .cartBox .image {
+    height: fit-content;
+    width: fit-content; }
+
+  .fullContainer .pizza .cartBox .image {
+    height: fit-content;
+    width: fit-content; }
+
+  .fullContainer .pizza .cartBox .text {
+    gap: 10px; }
+
+  .fullContainer .pizza .cartBox .text h3 {
+    font-size: 20px; }
+
+  .fullContainer .pizza .cartBox .text span {
+    font-size: 14px; }
+
+  .fullContainer .pizza .cartBox .text .btn p {
+    font-size: 18px; }
+
+  .fullContainer .pizza .cartBox .text .btn button {
+    padding: 10px 0;
+    width: 150px; } }
+@media screen and (min-width: 220px) and (max-width: 340px) {
+  .fullContainer .sweet .cartBox .text {
+    gap: 2px; }
+
+  .fullContainer .sweet .cartBox {
+    gap: 20px; }
+
+  .fullContainer .sweet .cartBox .text h3 {
+    font-size: 14px; }
+
+  .fullContainer .sweet .cartBox .text span {
+    font-size: 10px; }
+
+  .fullContainer .sweet .cartBox .text .btn p {
+    font-size: 12px; }
+
+  .fullContainer .sweet .cartBox .text .btn button {
+    padding: 4px 0;
+    width: 100px; }
+
+  .fullContainer .sweet .cartBox .image {
+    height: fit-content;
+    width: fit-content; }
+
+  .fullContainer .pizza .cartBox .image {
+    height: fit-content;
+    width: fit-content; }
+
+  .fullContainer .pizza .cartBox .text {
+    gap: 2px; }
+
+  .fullContainer .pizza .cartBox {
+    gap: 20px; }
+
+  .fullContainer .pizza .cartBox .text h3 {
+    font-size: 14px; }
+
+  .fullContainer .pizza .cartBox .text span {
+    font-size: 10px; }
+
+  .fullContainer .pizza .cartBox .text .btn p {
+    font-size: 12px; }
+
+  .fullContainer .pizza .cartBox .text .btn button {
+    padding: 4px 0;
+    width: 100px; }
+
+  .fullContainer .sweet .icons button {
+    padding: 5px 10px; } }
+
+/*# sourceMappingURL=FullMenu.css.map */

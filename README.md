@@ -12,7 +12,7 @@ Alertify js
 ## Click on the link to view the site
 
 In the project directory, you can run:
-https://roaring-arithmetic-4a0b32.netlify.app/
+https://loquacious-daifuku-ca87a7.netlify.app
 
 ## About
 
